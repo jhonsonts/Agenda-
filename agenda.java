@@ -15,6 +15,7 @@ public class agenda {
 		String x; // Nossa variavel
 
 		for (i = 0; i < linhas; i++) { // Nosso sistema para repeticao
+			
 			System.out.printf("Pessoa %d\n", (i + 1)); // iterface que aparecera para o usuario
 			System.out.print("Informe seu nome: "); // interface que aparecera para o usuario imputar os dados
 			m[i][0] = ler.nextLine(); // Fara a leitura da nossa String
@@ -46,6 +47,7 @@ public class agenda {
 
 		for (i = 0; i < linhas; i++) { // Sistema de repeticao
 			for (j = 0; j < 1; j++) { // Sistema de repeticao
+				
 				System.out.printf("Pessoa %d\n", (i + 1)); // iterface que aparecera para o usuario
 				System.out.printf("Nome: %s\n", m[i][0]); // iterface que aparecera para o usuario
 				System.out.printf("Endereco: %s\n", m[i][1]); // iterface que aparecera para o usuario
