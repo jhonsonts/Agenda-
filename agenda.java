@@ -10,7 +10,7 @@ public class agenda {
 		        
 		Scanner ler = new Scanner(System.in); // Esse e o Scanner que fara a leitura do codigo
 
-		int i = 0, j = 0, k = 0, linhas = 5, colunas = 5; // Nossas variaveis
+		int i = 0, j = 0, k = 0, linhas = 10, colunas = 5; // Nossas variaveis
 		String m[][] = new String[linhas][colunas]; // Nossas variaveis 
 		String x; // Nossa variavel
 
